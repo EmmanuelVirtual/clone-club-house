@@ -36,10 +36,17 @@
         display: block;
         overflow: hidden;
       }
+
+      main > div {
+        align-items: center;
+        justify-items: center;
+      }
     </style>
   </head>
-  <body class="h-screen flex flex-col bg-yellow-50">
-    <div class="w-screen h-screen bg-yellow-50 p-4">
+  <body class="
+  m-auto
+  h-screen flex flex-col bg-yellow-50 sm:max-w-md">
+    <div class="w-full h-screen bg-yellow-50 p-4">
       <header class="w-full flex justify-between">
         <div class="flex items-center text-lg">
           <span class="w-5 h-5 mr-2"
@@ -107,20 +114,16 @@
         </div>
       </header>
     </div>
-
-    <main
-    class="bg-white rounded-t-3xl w-full shasow px-6 py-4
-    
-    ">
+    <main class="bg-white rounded-t-3xl w-full shasow px-6 py-4">
     <h1 class=" mb-4">🔴 Como Crescer no Instagram</h1>
-    <div class="grid gap-4 grid-cols-3">
+    <div class="grid gap-4 grid-cols-3 justify-center">
         <p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p>
         <p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p><p>Lorem</p>
       </div>
     </main>
     <footer class="
     fixed bottom-0
-    m-auto p-3 flex itms-center justify-between w-full bg-white">
+    m-auto p-3 flex itms-center justify-between  max-w-md w-full bg-white">
 
       <button class="rounded-full  bg-gray-200 py-1.5 px-4 flex items-center justify-between">
         <span class="mt-0.5">✌️</span>
